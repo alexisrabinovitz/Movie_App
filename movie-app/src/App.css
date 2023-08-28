@@ -1,0 +1,129 @@
+/* *{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.App{
+  padding: 1.5rem;
+  background-color: blue;
+}
+
+.movies{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 1rem; 
+}
+
+.search_nav{
+  display: flex;
+  align-items: center;
+  padding-bottom: 1.5rem;
+  justify-content: center;
+}
+
+.title{
+  padding-right: 3rem;
+}
+
+.title h1{
+  color: white;
+}
+
+.search_box input{
+  border: 0;
+  outline: 0;
+  margin-right: 0.2rem;
+  padding: 0.3rem;
+  border-radius: 1rem;
+}
+
+
+.search_box button{
+  border: 0;
+  outline: 0;
+  background-color: white;
+  padding: 0.3rem;
+  border-radius: 1rem;
+} */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; /* Ensure padding and border don't affect element dimensions */
+  font-family: sans-serif;
+}
+
+.App {
+  padding: 1.5rem;
+  background-color: #111; /* Dark background color similar to Netflix */
+}
+
+.movies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.search_nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 1.5rem;
+}
+
+.title {
+  padding-right: 3rem;
+}
+
+.title h1 {
+  color: white;
+  font-size: 3.7rem;
+  /* margin-left: 43%; */
+  margin-right: auto;
+  text-align: center;
+  font-family: 'Monoton';
+}
+
+.search_box{
+  display: flex;
+  text-align: center;
+  width: 400px;
+}
+.search_box input {
+  border: 0;
+  outline: 0;
+  margin-right: 0.2rem;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  border-radius: 1rem;
+  width: 300px;
+}
+
+.search_box button {
+  border: 0;
+  outline: 0;
+  background-color: white;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  justify-content: center;
+}
+
+.back_button button {
+  border: 0;
+  outline: 0;
+  background-color: white;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.back_button {
+ align-self: auto;
+}
